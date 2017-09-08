@@ -88,113 +88,14 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-      s.subspec 'TBRequest' do |ss|
+      s.subspec 'TBJudgeBankNameWithNumber' do |ss|
       ss.source_files = '*.{h,m}'
-      s.dependency "AFNetworking", "~> 3.1"
+#       s.dependency "AFNetworking", "~> 3.1"
    
 #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
 #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
 #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
 #     ss.osx.frameworks = 'CoreServices'
     end
-#     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-#     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-#     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-#     ss.osx.frameworks = 'CoreServices'
-#     end
-#   s.source_files  = "TBBase.h"
-#   s.exclude_files = "Classes/Exclude"
-#   s.dependency "AFNetworking", "~> 3.1"
-  
-#    s.subspec 'RSA' do |ss|
-#     ss.source_files = 'Base/RSA/*.{h,m}'
-# #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-# #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.osx.frameworks = 'CoreServices'
-#   end
 
-#   s.subspec 'TBStartMovieController' do |ss|
-#     ss.source_files = 'Base/StartMovieController/*.{h,m,gif,mp4}'
-# #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-# #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.osx.frameworks = 'CoreServices'
-#   end
-  
-#   s.subspec 'TBKeyChain' do |ss|
-#     ss.source_files = 'Base/TBKeyChain/*.{h,m}'
-   
-# #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-# #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.osx.frameworks = 'CoreServices'
-#   end
-  
-#   s.subspec 'TBView' do |ss|
-#     ss.source_files = 'Base/TBView/*.{h,m}'
-#   end
-  
-  
-  
-#   s.subspec 'TBPredicate' do |ss|
-#     ss.source_files = 'Base/TBPredicate/*.{h,m}'
-#   end
-  
-#     s.subspec 'CommonUtils' do |ss|
-#     ss.source_files = 'Base/CommonUtils/*.{h,m}'
-   
-# #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-# #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.osx.frameworks = 'CoreServices'
-#   end 
-  
-#    s.subspec 'TBRequestManager' do |ss|
-#     ss.source_files = 'Base/TBRequestManager/*.{h,m}'
-# #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-# #     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-# #     ss.osx.frameworks = 'CoreServices'
-#   end
-  # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 end
