@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
       s.subspec 'TBJudgeBankNameWithNumber' do |ss|
-      ss.source_files = '*.{h,m,plist}'
+      ss.source_files = '*.{h,m}'
 #       s.dependency "AFNetworking", "~> 3.1"
    
 #     ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
